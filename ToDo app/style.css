@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.addNewContainer{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(55, 55, 248);
+    text-align: center;
+}
+.addNewContainer button{    
+    margin-top: 40px;
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    color:rgb(55, 55, 248);
+    border: none;
+    font-size: 18px;
+}
+.addNewContainer button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(91, 91, 241);
+}
+/*********************************************************/
+
+.listsContainer{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+.listsContainer .inProgresList{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.listsContainer .finishedList{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.numOfElements{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.numOfElements p{
+    margin: 0px;
+    padding: 0px;
+    padding-top:4%;
+    font-size: 40px;
+}
+.elementHolder{
+    margin: auto;
+    width: 70%;
+    height: 75%;
+    border-left: 1px solid rgb(216, 216, 255);
+    border-right: 1px solid  rgb(216, 216, 255);
+    overflow-y: auto;
+}
+.listHolder{
+    
+    border: 1px solid rgb(55, 55, 248);
+    margin: auto;
+    width: 90%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.listHolder .listHolderCheckbox{
+    width: 10%;
+    height: 100%;
+}
+.listHolder .listHolderCheckbox input{
+    margin-top: 10%;
+    width: 20px;
+    height: 20px;
+}
+.listHolder .listHolderP{
+    overflow-x: auto;
+    width: 80%;
+}
+.listHolder .listHolderP p{
+    font-size: 25px;
+}
+.listHolder .listHolderP p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(29, 29, 255);
+}
+
+.listHolder .listHolderButton{
+    width: 10%;
+    height: 100%;
+}
+.listHolder .listHolderButton button{
+    margin-top: 10%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color:  rgb(55, 55, 248);
+    border: none;
+    border-radius: 20%;
+}
+.listHolder .listHolderButton button:hover{
+    cursor: pointer;
+    color:  rgb(55, 55, 248);
+    background-color: white;
+    border: 2px solid rgb(55, 55, 248);
+}
+.hidden{
+    display: none;
+}
+/**************************************/
+
+.blackBackground{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.blackBackground .container{
+    border: 3px solid blue;
+    background: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.blackBackground .container .textErea {
+    margin-bottom: 20px;
+}
+.blackBackground .container .textErea textarea{
+    font-size: 20px;
+    margin-top: 20px;
+    border: 3px solid rgb(55, 55, 248);
+}
+.blackBackground .container .titleErea{
+    text-align: center;
+}
+
+.blackBackground .container .titleErea input{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 3px solid rgb(55, 55, 248);
+}
+.blackBackground .container .topErea{
+    margin-top: 20px;
+}
+.blackBackground .container .topErea button{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(55, 55, 248);
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 50px;
+}
+.blackBackground .container .topErea button:hover{
+    cursor: pointer;
+    color: rgb(55, 55, 248);
+    border: 1px solid rgb(55, 55, 248);
+    background-color: white;
+}
+/******************************************/
+.seeInformation .informationHolder{
+    border: 1px solid white;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(229, 211, 211);
+    border-radius: 10px;
+}
+
+.seeInformation .informationHolder .informationTitle{
+    text-align: center;
+}
+.seeInformation .informationHolder .informationTitle p{
+    font-size: 20px;
+}
+.seeInformation .informationHolder .informationText {
+    text-align: justify;
+    padding: 15px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="addNewContainer">
+        <button class="addNewContainerButton">Add new ToDo</button>
+    </div>
+    <div class="listsContainer">
+        <div class="inProgresList">
+            <div class="numOfElements"><p class="numberOfUnfinished">0</p></div>
+            <div class="elementHolder">                 
+            </div>
+        </div>
+
+        <div class="finishedList">
+            <div class="numOfElements"><p class="numberOfFinished">0</p></div>
+            <div class="elementHolder" id="finished">
+            </div>
+        </div>
+    </div>
+
+    <div class="blackBackground hidden">
+        <div class="container">
+            <div class="topErea">
+                <button class="saveButton">Save</button>
+                <button class="exitButton">Exit</button>
+            </div>
+            <div class="titleErea">
+                <input type="text" placeholder="Title" id="title">
+            </div>
+            <div class="textErea">
+                <textarea name="" id="text" cols="30" rows="10" style="resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="seeInformation blackBackground hidden">
+        <div class="informationHolder">
+            <button class="infoExitButton">Exit</button>
+            <div class="informationTitle"><p class="informationTitleP"></p></div>
+            <div class="informationText"><p class="informationTextP">
+            </p></div>
+        </div>
+    </div>
+
+    <!--EDIT-->
+    <div class="blackBackground edit hidden">
+        <div class="container">
+            <div class="topErea">
+                <button class="saveButtonEdit">Save</button>
+                <button class="exitButton">Exit</button>
+            </div>
+            <div class="titleErea">
+                <input type="text" placeholder="Title" id="titleEdit">
+            </div>
+            <div class="textErea">
+                <textarea name="" id="textEdit" cols="30" rows="10" style="resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
