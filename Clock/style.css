@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(170, 172, 174);
+}
+.timeLeft{
+    height: 30%;
+}
+.timeLeft p{
+    text-align: center;
+    font-size: 70px;
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    font-size: 30px;
+    padding: 15px;
+    margin: 3%;
+    width: 130px;
+    border: none;
+    border-radius: 50px;
+}
+.buttons #start{
+    background-color: rgb(133, 227, 133);
+}
+.buttons #reset{
+    background-color: rgb(232, 245, 89);
+}
+.buttons #break{
+    background-color: rgb(232, 56, 56);
+}
+.buttons #start:hover,#reset:hover,#break:hover{
+    cursor: pointer;
+    background-color: rgb(244, 244, 223);
+}
+.showBreakTime{
+    text-align: center;
+}
+.showBreakTime p{
+    font-size: 40px;
+}
