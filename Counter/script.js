@@ -2,7 +2,6 @@ const plusButton = document.querySelector('.plusButton');
 const minusButton = document.querySelector('.minusButton');
 const numberHolder = document.querySelector('.numberHolder');
 const numberValue = document.querySelector('.numberValue');
-const body = document.querySelector('.body');
 
 let count = 0;
 
