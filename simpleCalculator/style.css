@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Pictures/picOne.jpg);
+    background-size: cover;
+}
+
+.mainHolder{
+    
+    width: 50vh;
+    height: 90vh;
+    margin: auto;
+    margin-top: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 2%;
+    background-color: rgb(250, 241, 241);
+}
+.mainHolder .screen{
+    border: 1px solid black;
+    margin: 8px;
+    height: 33%;
+    position: relative;
+    margin-bottom: 25px;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    background-color: rgb(50, 48, 48);
+    
+    max-width: 50vh;
+    overflow: auto;
+   
+
+}
+.mainHolder .screen p{
+    margin:0;
+    padding:0;
+    position: absolute;
+    font-size: 40px;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+   
+}
+
+.line{
+    margin: 8px;
+    height: 10%;
+    text-align: center;
+}
+.line button{
+    width: 70px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.line button:hover {
+    cursor: pointer;
+}
+.line button:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#bigNumber{
+    width: 150px;
+    border-radius: 20px;
+}

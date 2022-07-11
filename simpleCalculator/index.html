@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainHolder">
+        <div class="screen">
+            <p id="screen"></p>
+        </div>
+        <div class="line">
+            <button id="deleteAll" >C</button>
+            <button id="removeLast">&#8592;</button>
+            <button value="/" onclick="takeValue(this)">/</button>
+        </div>
+        <div class="line">
+            <button value="7" onclick="takeValue(this)">7</button>
+            <button value="8" onclick="takeValue(this)">8</button>
+            <button value="9" onclick="takeValue(this)">9</button>
+            <button value="*" onclick="takeValue(this)">*</button> 
+        </div>
+        <div class="line">
+            <button value="4" onclick="takeValue(this)">4</button>
+            <button value="5" onclick="takeValue(this)">5</button>
+            <button value="6" onclick="takeValue(this)">6</button>
+            <button value="-" onclick="takeValue(this)">-</button>
+        </div>  <div class="line">
+            <button value="1" onclick="takeValue(this)">1</button>
+            <button value="2" onclick="takeValue(this)">2</button>
+            <button value="3" onclick="takeValue(this)">3</button>
+            <button value="+" onclick="takeValue(this)">+</button>
+        </div>  <div class="line">
+            <button id="bigNumber" value="0" onclick="takeValue(this)">0</button>
+            <button value="."onclick="takeValue(this)">.</button>
+            <button id="calculateValue">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
